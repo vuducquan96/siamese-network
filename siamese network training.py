@@ -6,6 +6,7 @@ import cv2
 import time
 import numpy as np
 import torch.optim as optim
+import random
 
 class SiameseNetwork(nn.Module):
 
